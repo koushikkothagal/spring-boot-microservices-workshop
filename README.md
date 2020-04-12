@@ -11,3 +11,16 @@ This workshop includes:
 
 Complete Course:
   https://www.youtube.com/playlist?list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas
+
+Added on with:
+
+# koushikkothagal-spring-boot-microservices-Level-2-workshop
+
+This workshop includes:
+  Fault Tolerance and Resiliance.(Theory)
+  Timeout
+  Circuit Breaker
+  Hystrix Implementation(HystrixCommand with configuration, Fallback Fuctions, HystrixDashboard).
+  
+Complete Course:
+  https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbXZY_elyGv7IkKrfkSrX5e
