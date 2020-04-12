@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0d94fdd-6099-4aa5-9527-087f3956124e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/MovieCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/MovieCatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/resources/CatalogResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/resources/CatalogResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.MovieCatalogServiceApplication">
+  <component name="RunManager" selected="Application.MovieInfoService">
     <configuration name="MovieCatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.javabrains.moviecatalogservice.MovieCatalogServiceApplication" />
       <module name="movie-catalog-service" />
@@ -94,22 +96,26 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586624343454" />
-    <state width="1253" height="283" key="GridCell.Tab.0.bottom" timestamp="1586627578134">
+    <state width="1253" height="560" key="GridCell.Tab.0.bottom" timestamp="1586690406200">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="283" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586627578134" />
-    <state width="1253" height="283" key="GridCell.Tab.0.center" timestamp="1586627578133">
+    <state width="1253" height="560" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586690406200" />
+    <state width="1253" height="560" key="GridCell.Tab.0.center" timestamp="1586690406199">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="283" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586627578133" />
-    <state width="1253" height="283" key="GridCell.Tab.0.left" timestamp="1586627578132">
+    <state width="1253" height="560" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586690406199" />
+    <state width="1253" height="560" key="GridCell.Tab.0.left" timestamp="1586690406199">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="283" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586627578132" />
-    <state width="1253" height="283" key="GridCell.Tab.0.right" timestamp="1586627578133">
+    <state width="1253" height="560" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586690406199" />
+    <state width="1253" height="560" key="GridCell.Tab.0.right" timestamp="1586690406199">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="283" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586627578133" />
+    <state width="1253" height="560" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586690406199" />
+    <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1586689512902">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1586689512902" />
   </component>
   <component name="masterDetails">
     <states>
