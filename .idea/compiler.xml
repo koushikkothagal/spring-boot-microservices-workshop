@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movie-catalog-service" />
-        <module name="movie-info-service" />
         <module name="ratings-data-service" />
+        <module name="movie-info-service" />
       </profile>
     </annotationProcessing>
   </component>
