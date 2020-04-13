@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d94fdd-6099-4aa5-9527-087f3956124e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/nakulgoyal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/MovieInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/UserRatingInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/MovieCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/MovieCatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/resources/CatalogResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/resources/CatalogResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/MovieInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/MovieInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/UserRatingInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/UserRatingInfoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
       <recent name="io.javabrains.moviecatalogservice.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RatingDataService">
+  <component name="RunManager" selected="Application.MovieCatalogServiceApplication">
     <configuration name="MovieCatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.javabrains.moviecatalogservice.MovieCatalogServiceApplication" />
       <module name="movie-catalog-service" />
@@ -114,22 +108,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586624343454" />
-    <state width="1253" height="267" key="GridCell.Tab.0.bottom" timestamp="1586714606608">
+    <state width="1253" height="267" key="GridCell.Tab.0.bottom" timestamp="1586753649809">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586714606608" />
-    <state width="1253" height="267" key="GridCell.Tab.0.center" timestamp="1586714606607">
+    <state width="1253" height="267" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586753649809" />
+    <state width="1253" height="267" key="GridCell.Tab.0.center" timestamp="1586753649803">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586714606607" />
-    <state width="1253" height="267" key="GridCell.Tab.0.left" timestamp="1586714606607">
+    <state width="1253" height="267" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586753649803" />
+    <state width="1253" height="267" key="GridCell.Tab.0.left" timestamp="1586753649803">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586714606607" />
-    <state width="1253" height="267" key="GridCell.Tab.0.right" timestamp="1586714606608">
+    <state width="1253" height="267" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586753649803" />
+    <state width="1253" height="267" key="GridCell.Tab.0.right" timestamp="1586753649804">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586714606608" />
+    <state width="1253" height="267" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586753649804" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1586689512902">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
