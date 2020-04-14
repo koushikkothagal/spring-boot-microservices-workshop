@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d94fdd-6099-4aa5-9527-087f3956124e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/resources/TestConfigLocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-files/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/java/test/sever/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/test/java/test/sever/config/ConfigApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-info-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-info-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratings-data-service/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +36,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1aP00rdoiRCfIk7iC9VCWCZjIOM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548212413544" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -105,31 +111,34 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="208" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586700067230">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="208" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1586700067230" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586804971361">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586880550179">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586804971361" />
-    <state width="1253" height="267" key="GridCell.Tab.0.bottom" timestamp="1586858957988">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586880550179" />
+    <state width="1253" height="267" key="GridCell.Tab.0.bottom" timestamp="1586880477064">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586858957988" />
-    <state width="1253" height="267" key="GridCell.Tab.0.center" timestamp="1586858957987">
+    <state width="1253" height="267" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586880477064" />
+    <state width="1253" height="267" key="GridCell.Tab.0.center" timestamp="1586880477064">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586858957987" />
-    <state width="1253" height="267" key="GridCell.Tab.0.left" timestamp="1586858957979">
+    <state width="1253" height="267" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586880477064" />
+    <state width="1253" height="267" key="GridCell.Tab.0.left" timestamp="1586880477063">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586858957979" />
-    <state width="1253" height="267" key="GridCell.Tab.0.right" timestamp="1586858957988">
+    <state width="1253" height="267" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586880477063" />
+    <state width="1253" height="267" key="GridCell.Tab.0.right" timestamp="1586880477064">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586858957988" />
+    <state width="1253" height="267" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586880477064" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1586689512902">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
