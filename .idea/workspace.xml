@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d94fdd-6099-4aa5-9527-087f3956124e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/resources/TestConfigLocationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/MovieInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/MovieInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/UserRatingInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/UserRatingInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-info-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-info-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratings-data-service/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="lookForNested" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -37,10 +42,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548212413544" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/discovery-server" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -104,34 +110,34 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="208" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1586700067230" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586624343454">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586804971361">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586624343454" />
-    <state width="1253" height="267" key="GridCell.Tab.0.bottom" timestamp="1586753649809">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586804971361" />
+    <state width="1253" height="267" key="GridCell.Tab.0.bottom" timestamp="1586858957988">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586753649809" />
-    <state width="1253" height="267" key="GridCell.Tab.0.center" timestamp="1586753649803">
+    <state width="1253" height="267" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586858957988" />
+    <state width="1253" height="267" key="GridCell.Tab.0.center" timestamp="1586858957987">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586753649803" />
-    <state width="1253" height="267" key="GridCell.Tab.0.left" timestamp="1586753649803">
+    <state width="1253" height="267" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586858957987" />
+    <state width="1253" height="267" key="GridCell.Tab.0.left" timestamp="1586858957979">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586753649803" />
-    <state width="1253" height="267" key="GridCell.Tab.0.right" timestamp="1586753649804">
+    <state width="1253" height="267" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586858957979" />
+    <state width="1253" height="267" key="GridCell.Tab.0.right" timestamp="1586858957988">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="267" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586753649804" />
+    <state width="1253" height="267" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586858957988" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1586689512902">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1586689512902" />
-    <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1586696932280">
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1586805549834">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1586696932280" />
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1586805549834" />
     <state x="722" y="206" width="524" height="501" key="extract.method.dialog" timestamp="1586709913661">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

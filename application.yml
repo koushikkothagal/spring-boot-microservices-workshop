@@ -1,0 +1,5 @@
+#For movie-catalog-service
+#For external configs
+test:
+  config:
+    location: "Outside ${spring.application.name} Package(Jar)"

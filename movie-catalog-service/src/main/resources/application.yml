@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: movie-catalog-service
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+test:
+  config:
+    location: "Inside ${spring.application.name} Package(Jar)"
