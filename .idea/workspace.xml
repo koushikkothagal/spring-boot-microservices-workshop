@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d94fdd-6099-4aa5-9527-087f3956124e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-files/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/test/sever/config/ConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/java/test/sever/config/ConfigApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-files" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -36,7 +29,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aP00rdoiRCfIk7iC9VCWCZjIOM" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">

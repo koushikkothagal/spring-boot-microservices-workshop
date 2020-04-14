@@ -3,4 +3,4 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/nakulGoyal19/spring-boot-microservices-workshop/tree/develop-config-server/config-files
