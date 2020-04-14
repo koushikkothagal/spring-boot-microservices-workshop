@@ -4,3 +4,6 @@ spring:
       server:
         git:
           uri: ${HOME}/Desktop/spring-boot-microservices-workshop/config-files
+
+server:
+  port: 8888
