@@ -1,0 +1,3 @@
+test:
+  config:
+    location: "Inside movie-catalog-service.yml Config Git-Repo with(@RefreshScope)   .../actuator/refresh"

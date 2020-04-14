@@ -1,0 +1,3 @@
+test:
+  config:
+    location: "Inside application.yml Config Git-Repo"
