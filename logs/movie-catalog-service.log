@@ -1,0 +1,71 @@
+18:06:15.323 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b112bed1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:06:15.733 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+18:06:15.875 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+18:06:15.876 [main] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/movie-catalog-service/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+18:06:15.883 [main] INFO  i.j.m.MovieCatalogServiceApplication - No active profile set, falling back to default profiles: default
+18:06:17.328 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+18:06:17.349 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+18:06:17.755 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a29a804a-64ce-3a48-8d44-4d581e457524
+18:06:18.177 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b112bed1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:06:18.900 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+18:06:18.926 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+18:06:18.950 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:06:18.951 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+18:06:18.968 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18:06:19.533 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:06:19.534 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3587 ms
+18:06:19.850 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18:06:19.851 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18:06:19.889 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@49e7e8f1
+18:06:20.834 [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+18:06:21.713 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18:06:21.713 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18:06:22.182 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:06:23.125 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 20 endpoint(s) beneath base path '/actuator'
+18:06:23.272 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+18:06:23.323 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+18:06:23.388 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+18:06:23.389 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+18:06:23.623 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+18:06:23.623 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+18:06:23.819 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18:06:23.854 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+18:06:23.855 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+18:06:23.855 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+18:06:23.855 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+18:06:23.855 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+18:06:23.855 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+18:06:23.856 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+18:06:23.964 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+18:06:23.967 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+18:06:23.972 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+18:06:23.978 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1586954183976 with initial instances count: 0
+18:06:23.983 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application MOVIE-CATALOG-SERVICE with eureka with status UP
+18:06:23.984 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1586954183984, current=UP, previous=STARTING]
+18:06:23.987 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MOVIE-CATALOG-SERVICE/192.168.1.7:movie-catalog-service:8081: registering service...
+18:06:24.021 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+18:06:24.094 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+18:06:24.098 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MOVIE-CATALOG-SERVICE/192.168.1.7:movie-catalog-service:8081 - registration status: 204
+18:06:24.098 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+18:06:24.105 [main] INFO  i.j.m.MovieCatalogServiceApplication - Started MovieCatalogServiceApplication in 11.192 seconds (JVM running for 12.656)
+18:06:34.771 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:06:34.775 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:06:34.883 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 107 ms
+18:06:34.968 [http-nio-8081-exec-1] INFO  i.j.m.r.TestConfigLocationController - Testing the location of config file for movie-catalog-service
+18:06:53.968 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+18:06:53.969 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+18:06:53.969 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+18:06:53.970 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+18:06:53.970 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+18:06:53.970 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+18:06:53.970 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+18:06:54.012 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+18:07:35.868 [Thread-7] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application MOVIE-CATALOG-SERVICE with eureka with status DOWN
+18:07:35.869 [Thread-7] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1586954255869, current=DOWN, previous=UP]
+18:07:35.870 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MOVIE-CATALOG-SERVICE/192.168.1.7:movie-catalog-service:8081: registering service...
+18:07:35.878 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+18:07:35.883 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MOVIE-CATALOG-SERVICE/192.168.1.7:movie-catalog-service:8081 - registration status: 204
+18:07:35.914 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+18:07:38.916 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+18:07:38.927 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MOVIE-CATALOG-SERVICE/192.168.1.7:movie-catalog-service:8081 - deregister  status: 200
+18:07:38.953 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
