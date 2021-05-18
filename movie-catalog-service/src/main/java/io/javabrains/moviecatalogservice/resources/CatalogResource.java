@@ -11,7 +11,10 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
 import java.util.List;
 import java.util.stream.Collectors;
-
+/*
+* 🔥 You can test this service in browser by going to the following endpoint:
+* http://localhost:8081/catalog/omer
+* */
 @RestController
 @RequestMapping("/catalog")
 public class CatalogResource {
