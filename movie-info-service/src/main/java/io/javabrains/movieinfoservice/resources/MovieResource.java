@@ -19,6 +19,14 @@ public class MovieResource {
     @Autowired
     private RestTemplate restTemplate;
 
+    /*
+    Sends request to below adress. Deserialize the response to MovieSummary instance.
+    * https://api.themoviedb.org/3/movie/100?api_key=your_api_key
+    * https://api.themoviedb.org/3/movie/200?api_key=your_api_key
+    * https://api.themoviedb.org/3/movie/300?api_key=your_api_key
+    * https://api.themoviedb.org/3/movie/400?api_key=your_api_key
+    * https://api.themoviedb.org/3/movie/500?api_key=your_api_key
+    * */
     @RequestMapping("/{movieId}")
     public Movie getMovieInfo(@PathVariable("movieId") String movieId) {
         MovieSummary movieSummary = restTemplate.getForObject("https://api.themoviedb.org/3/movie/" + movieId + "?api_key=" +  apiKey, MovieSummary.class);

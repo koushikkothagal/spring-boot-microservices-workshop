@@ -6,6 +6,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/*
+* This is not consuming any thing. It just publishes it exists to the Eureka server.
+* */
 @SpringBootApplication
 @EnableEurekaClient
 public class MovieInfoServiceApplication {
