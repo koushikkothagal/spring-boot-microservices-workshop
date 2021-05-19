@@ -28,7 +28,10 @@ public class UserRating {
         this.setUserId(userId);
         this.setRatings(Arrays.asList(
                 new Rating("100", 3),
-                new Rating("200", 4)
+                new Rating("200", 4),
+                new Rating("300", 1),
+                new Rating("400", 5),
+                new Rating("500", 5)
         ));
     }
 }
