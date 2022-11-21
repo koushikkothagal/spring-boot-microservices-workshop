@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "7ef40e57-378b-418e-92fc-1d22fd82dba1",
+		"name": "movie-catalog-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "865546"
+	},
+	"item": [
+		{
+			"name": "MovieCatelog",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

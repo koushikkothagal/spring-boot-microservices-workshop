@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "55451066-7971-4f63-bf0e-28522dd4c0b1",
+		"name": "ratings-data-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "865546"
+	},
+	"item": [
+		{
+			"name": "rating by movie id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8083/ratingsdata/movies/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"ratingsdata",
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user ratings by userid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8083/user/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
