@@ -1,9 +1,7 @@
 package io.javabrains.movieinfoservice.resources;
 
 import io.javabrains.movieinfoservice.models.Movie;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/movies")
@@ -14,5 +12,10 @@ public class MovieResource {
         return new Movie(movieId, "Name for ID " + movieId);
 
     }
-
+    @PostMapping("/postbody")
+    public Movie postBody(@RequestBody Movie movie) {
+        movie.setName("Avathar");
+        movie.setMovieId("1");
+        return   movie;
+    }
 }
