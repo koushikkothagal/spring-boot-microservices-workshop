@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "7141b34c-7930-46cc-967d-36c31cb708af",
+		"name": "movie-info-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "865546"
+	},
+	"item": [
+		{
+			"name": "movies by movie Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/movies/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
