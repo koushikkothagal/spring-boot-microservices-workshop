@@ -90,14 +90,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Projects/spring-boot-microservices-workshop/movie-catalog-service"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Projects/spring-boot-microservices-workshop/movie-catalog-service&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.javabrains.ratingsdataservice.models" />
@@ -115,7 +115,7 @@
       <recent name="io.javabrains.movieinfoservice.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RatingsDataServiceApplication">
+  <component name="RunManager" selected="Application.MovieCatalogServiceApplication">
     <configuration name="MovieCatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.javabrains.moviecatalogservice.MovieCatalogServiceApplication" />
       <module name="movie-catalog-service" />
@@ -157,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RatingsDataServiceApplication" />
         <item itemvalue="Application.MovieCatalogServiceApplication" />
+        <item itemvalue="Application.RatingsDataServiceApplication" />
         <item itemvalue="Application.MovieInfoServiceApplication" />
       </list>
     </recent_temporary>
